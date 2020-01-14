@@ -1,5 +1,5 @@
 body {
-    background-color: #eeeeee;
+    background-color: #c9b6e4;
 }
 
 img {
@@ -15,5 +15,16 @@ hr {
 }
 
 h1, h3 {
-    color: #00adb5;
+    color: #be9fe1;
+}
+
+.name, .current-title, .objective, .summary, .work-experience, .skills, .education, .projects, .publication, .certifications {
+    background-color: #e1ccec;
+    color: #393e46;
+    min-height: 250px;
+    max-height: 100%;
+    width: 80%;
+    padding: 50px;
+    margin: 10%;
+    box-shadow: 1px 1px 1px 1px #be9fe1;
 }
