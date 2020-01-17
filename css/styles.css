@@ -1,8 +1,4 @@
-img {
-    border-radius: 100%;
-}
-
-.name-container, .objective, .summary, .work-experience, .skills, .education, .projects, .publication, .certifications {
+.hello-container, .objective-container, .work-experience, .skills, .education, .projects, .publication, .certifications {
     background-color: #F5F5F5;
     box-shadow: 1px 1px 1px 1px #F5F5F5;
     margin: 20px auto;
@@ -12,9 +8,12 @@ img {
     width: 85%;
 }
 
-.profile-pic {
+/* name container starts*/
+.profile-image {
     float: left;
+    height: 250px;
     margin-right: 20px;
+    width: 30%;
 }
 
 .hello-greeting {
@@ -25,3 +24,23 @@ img {
     line-height: 1.5;
     text-align: center;
 }
+
+/*name container ends*/
+
+/*objective container starts*/
+.objective-image {
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+}
+
+.objective-title {
+    text-align: center;
+}
+
+.objective-description {
+    line-height: 1.5;
+    text-align: center;
+}
+
+/*objective container ends*/
