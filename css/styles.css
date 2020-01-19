@@ -24,10 +24,20 @@ html, body {
 .image-container {
     display: inline-block;
     float: left;
-    height: 100px;
     max-height: inherit;
     min-height: inherit;
+    position: relative;
     width: 30%;
+}
+
+.image-container img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
 }
 
 .side-text-container {
