@@ -1,46 +1,47 @@
-.hello-container, .objective-container, .work-experience, .skills, .education, .projects, .publication, .certifications {
+html, body {
+    margin: 0;
+}
+
+.nav-bar {
     background-color: #F5F5F5;
-    box-shadow: 1px 1px 1px 1px #F5F5F5;
+    box-shadow: 10px 10px 10px #F1EFEF;
+    margin: 2px auto;
+    min-height: 50px;
+    width: 90%;
+}
+
+.hello-container, .objective-container, .summary-container {
+    background-color: #F5F5F5;
+    box-shadow: 10px 10px 10px #F1EFEF;
     margin: 20px auto;
     max-height: 100%;
-    min-height: 250px;
+    min-height: 500px;
     padding: 50px;
-    width: 85%;
+    /* TODO media queries below once desktop version is finalized*/
+    width: 55%;
 }
 
-/* name container starts*/
-.profile-image {
+.image-container {
+    display: inline-block;
     float: left;
-    height: 250px;
-    margin-right: 20px;
+    height: 100px;
+    max-height: inherit;
+    min-height: inherit;
     width: 30%;
 }
 
-.hello-greeting {
-    text-align: center;
+.side-text-container {
+    display: inline-block;
+    height: 100px;
+    max-height: inherit;
+    min-height: inherit;
+    width: 70%;
 }
 
-.hello-description {
-    line-height: 1.5;
-    text-align: center;
+.footer {
+    background-color: #F5F5F5;
+    box-shadow: 10px 10px 10px #F1EFEF;
+    margin: 2px auto;
+    min-height: 30px;
+    width: 90%;
 }
-
-/*name container ends*/
-
-/*objective container starts*/
-.objective-image {
-    float: left;
-    margin-right: 20px;
-    width: 30%;
-}
-
-.objective-title {
-    text-align: center;
-}
-
-.objective-description {
-    line-height: 1.5;
-    text-align: center;
-}
-
-/*objective container ends*/
