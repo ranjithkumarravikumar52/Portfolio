@@ -31,7 +31,7 @@ html, body {
 }
 
 .image-container img {
-    /*bottom: 0;*/
+    bottom: 0;
     left: 0;
     margin: auto;
     position: absolute;
@@ -50,12 +50,14 @@ html, body {
 
 .side-text-container .side-text-header, .side-text-container .side-text-description {
     margin-left: 10px;
+    text-align: justify;
 }
 
 .side-text-list {
     list-style-position: outside;
     margin-left: 30px;
     padding-left: 0;
+    text-align: justify;
 }
 
 .footer {
