@@ -1,5 +1,8 @@
 html, body {
+    font-weight: 300;
     margin: 0;
+    /*font-family: 'Roboto', sans-serif;*/
+    /*font-family: 'Merriweather', serif;*/
 }
 
 .nav-bar {
@@ -7,13 +10,16 @@ html, body {
     box-shadow: 10px 10px 10px #F1EFEF;
     margin: 2px auto;
     min-height: 50px;
+    position: sticky;
+    top: 2px;
     width: 90%;
+    z-index: 100;
 }
 
 .hello-container, .objective-container, .summary-container {
     background-color: #F5F5F5;
     box-shadow: 10px 10px 10px #F1EFEF;
-    margin: 20px auto;
+    margin: 200px auto;
     max-height: 100%;
     min-height: 250px;
     padding: 50px;
@@ -31,7 +37,7 @@ html, body {
 }
 
 .image-container img {
-    /*bottom: 0;*/
+    bottom: 0;
     left: 0;
     margin: auto;
     position: absolute;
@@ -50,12 +56,22 @@ html, body {
 
 .side-text-container .side-text-header, .side-text-container .side-text-description {
     margin-left: 10px;
+    text-align: justify;
 }
 
-.side-text-list {
+.side-text-container .side-text-header {
+    font-family: 'Merriweather', serif;
+}
+
+.side-text-container .side-text-description, .side-text-container .side-text-list {
+    font-family: 'Roboto', sans-serif;
+}
+
+.side-text-container .side-text-list {
     list-style-position: outside;
     margin-left: 30px;
     padding-left: 0;
+    text-align: justify;
 }
 
 .footer {
