@@ -1,5 +1,6 @@
 /* TODO media queries below once desktop version is finalized*/
 html, body {
+    background-color: #f9f7f7;
     font-weight: 300;
     margin: 0;
     /*font-family: 'Roboto', sans-serif;*/
@@ -7,8 +8,8 @@ html, body {
 }
 
 .nav-bar {
-    background-color: #F5F5F5;
-    box-shadow: 10px 10px 10px #F1EFEF;
+    background-color: #dbe2ef;
+    box-shadow: 10px 10px 10px #dbe2ef;
     margin: 2px auto;
     min-height: 50px;
     position: sticky;
@@ -18,8 +19,8 @@ html, body {
 }
 
 .hello-container, .objective-container, .summary-container {
-    background-color: #F5F5F5;
-    box-shadow: 10px 10px 10px #F1EFEF;
+    background-color: #dbe2ef;
+    box-shadow: 10px 10px 10px #dbe2ef;
     margin: 175px auto;
     max-height: 100%;
     min-height: 300px;
@@ -60,11 +61,19 @@ html, body {
 }
 
 .side-text-container .side-text-header {
+    color: #112d4e;
     font-family: 'Merriweather', serif;
+    /*color: #3f72af;*/
 }
 
 .side-text-container .side-text-description, .side-text-container .side-text-list {
+    color: #112d4e;
     font-family: 'Roboto', sans-serif;
+    /*color: #3f72af;*/
+}
+
+#userName {
+    color: #3f72af;
 }
 
 .side-text-container .side-text-list {
