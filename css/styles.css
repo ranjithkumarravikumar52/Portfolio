@@ -1,3 +1,4 @@
+/* TODO media queries below once desktop version is finalized*/
 html, body {
     font-weight: 300;
     margin: 0;
@@ -19,11 +20,10 @@ html, body {
 .hello-container, .objective-container, .summary-container {
     background-color: #F5F5F5;
     box-shadow: 10px 10px 10px #F1EFEF;
-    margin: 200px auto;
+    margin: 175px auto;
     max-height: 100%;
-    min-height: 250px;
-    padding: 50px;
-    /* TODO media queries below once desktop version is finalized*/
+    min-height: 300px;
+    padding: 100px;
     width: 55%;
 }
 
