@@ -4,6 +4,7 @@ html, body {
     font-weight: 300;
     margin: 0;
     /*font-family: 'Roboto', sans-serif;*/
+    /*DONT REMOVE THE ABOVE AND BELOW COMMENTS*/
     /*font-family: 'Merriweather', serif;*/
 }
 
@@ -63,17 +64,15 @@ html, body {
 .side-text-container .side-text-header {
     color: #112d4e;
     font-family: 'Merriweather', serif;
-    /*color: #3f72af;*/
 }
 
 .side-text-container .side-text-description, .side-text-container .side-text-list {
     color: #112d4e;
     font-family: 'Roboto', sans-serif;
-    /*color: #3f72af;*/
 }
 
 #userName {
-    color: #3f72af;
+    color: #00059B;
 }
 
 .side-text-container .side-text-list {
