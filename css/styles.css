@@ -1,91 +1,40 @@
 /* TODO media queries below once desktop version is finalized*/
 html, body {
-    background-color: #f9f7f7;
+    /*background-color: #fffdfd;*/
+    font-size: 18px;
     font-weight: 300;
+    line-height: 26px;
     margin: 0;
     /*font-family: 'Roboto', sans-serif;*/
     /*DONT REMOVE THE ABOVE AND BELOW COMMENTS*/
     /*font-family: 'Merriweather', serif;*/
 }
 
-.nav-bar {
-    background-color: #dbe2ef;
-    box-shadow: 10px 10px 10px #dbe2ef;
-    margin: 2px auto;
-    min-height: 50px;
-    position: sticky;
-    top: 2px;
-    width: 90%;
-    z-index: 100;
+#userName, .contact {
+    color: #00059B;
 }
 
-.hello-container, .objective-container, .summary-container {
-    background-color: #dbe2ef;
-    box-shadow: 10px 10px 10px #dbe2ef;
-    margin: 175px auto;
-    max-height: 100%;
-    min-height: 300px;
-    padding: 100px;
-    width: 55%;
+.container {
+    background-color: #fffdfd;
+    box-shadow: 1px 1px 10px #dbe2ef;
+    margin: 30px auto;
+    /*max-height: 100%;*/
+    /*min-height: 300px;*/
+    padding: 50px;
+    width: 60%;
 }
 
-.image-container {
-    display: inline-block;
-    float: left;
-    max-height: inherit;
-    min-height: inherit;
-    position: relative;
-    width: 30%;
-}
-
-.image-container img {
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-}
-
-.side-text-container {
-    display: inline-block;
-    height: 100px;
-    max-height: inherit;
-    min-height: inherit;
-    width: 70%;
-}
-
-.side-text-container .side-text-header, .side-text-container .side-text-description {
+.header, .description {
     margin-left: 10px;
     text-align: justify;
 }
 
-.side-text-container .side-text-header {
+.header {
     color: #112d4e;
     font-family: 'Merriweather', serif;
 }
 
-.side-text-container .side-text-description, .side-text-container .side-text-list {
-    color: #112d4e;
+.description, .list {
+    /*color: #112d4e;*/
     font-family: 'Roboto', sans-serif;
-}
-
-#userName {
-    color: #00059B;
-}
-
-.side-text-container .side-text-list {
-    list-style-position: outside;
-    margin-left: 30px;
-    padding-left: 0;
-    text-align: justify;
-}
-
-.footer {
-    background-color: #F5F5F5;
-    box-shadow: 10px 10px 10px #F1EFEF;
-    margin: 2px auto;
-    min-height: 30px;
-    width: 90%;
 }
